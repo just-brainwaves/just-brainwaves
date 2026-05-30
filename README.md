@@ -1,9 +1,10 @@
 <!--
-███████████████████████████████████████████████████████████████
+═══════════════════════════════════════════════════════════════
   ADITYA SHRIMALI · GITHUB PROFILE README
-  Built with: custom animated SVGs + dynamic stat services
+  Theme: "Architectural Light" — bone-white · ink · emerald accent
+  Hand-built animated SVGs + light-themed stat services
   Swap `just-brainwaves` for your username if you fork this.
-███████████████████████████████████████████████████████████████
+═══════════════════════════════════════════════════════════════
 -->
 
 <!-- ============================ HERO ============================ -->
@@ -11,45 +12,46 @@
 
   <img src="./assets/header.svg" width="100%" alt="Aditya Shrimali — AI Engineer"/>
 
-  <!-- typing tagline -->
-  <a href="https://github.com/just-brainwaves">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=900&color=00F0FF&center=true&vCenter=true&width=820&height=46&lines=Teaching+silicon+to+hallucinate+less;Retrieval-Augmented+Everything+%E2%9A%A1;Shipping+agents+that+actually+do+the+thing;%24+sudo+rm+-rf+%2Fboring%2Fcode" alt="typing"/>
-  </a>
-
   <br/>
 
-  <!-- live badges -->
-  <img src="https://komarev.com/ghpvc/?username=just-brainwaves&style=for-the-badge&color=a855f7&label=NEURAL+PINGS" alt="views"/>
-  <img src="https://img.shields.io/github/followers/just-brainwaves?style=for-the-badge&color=ff2e97&labelColor=0a0e1a&logo=github&label=DISCIPLES" alt="followers"/>
-  <img src="https://img.shields.io/badge/UPTIME-99.9%25_(needs_coffee)-39ff14?style=for-the-badge&labelColor=0a0e1a" alt="uptime"/>
-  <img src="https://img.shields.io/badge/STATUS-PROBABLY_DEBUGGING-00f0ff?style=for-the-badge&labelColor=0a0e1a" alt="status"/>
+  <!-- typing tagline (emerald, light) -->
+  <a href="https://github.com/just-brainwaves">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=900&color=0E9F6E&center=true&vCenter=true&width=820&height=44&lines=Teaching+silicon+to+hallucinate+less;Retrieval-Augmented+everything;Shipping+agents+that+actually+do+the+thing;%24+sudo+rm+-rf+%2Fboring%2Fcode" alt="typing tagline"/>
+  </a>
+
+  <br/><br/>
+
+  <!-- live badges (flat, light, emerald) -->
+  <img src="https://komarev.com/ghpvc/?username=just-brainwaves&style=flat-square&color=0e9f6e&labelColor=ffffff&label=PROFILE+VIEWS" alt="views"/>
+  <img src="https://img.shields.io/github/followers/just-brainwaves?style=flat-square&color=0e9f6e&labelColor=ffffff&logo=github&logoColor=1c1c22&label=FOLLOWERS" alt="followers"/>
+  <img src="https://img.shields.io/badge/FOCUS-agentic_ai-1c1c22?style=flat-square&labelColor=ffffff" alt="focus"/>
+  <img src="https://img.shields.io/badge/STATUS-probably_debugging-0e9f6e?style=flat-square&labelColor=ffffff" alt="status"/>
 
 </div>
 
 <!-- ============================ BOOT LOG ============================ -->
 <div align="center">
 
-  <img src="./assets/terminal.svg" width="78%" alt="boot sequence"/>
+  <br/>
+  <img src="./assets/terminal.svg" width="80%" alt="whoami console"/>
 
 </div>
 
 <img src="./assets/divider.svg" width="100%" alt="---"/>
 
 <!-- ============================ ABOUT ============================ -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> &nbsp; <code>&gt; cat ./about.md</code>
-</h2>
+<h2 align="center"><code>&gt; cat ./about.md</code></h2>
 
 <table align="center" border="0">
 <tr>
-<td width="55%" valign="top">
+<td width="56%" valign="top">
 
 ```yaml
 profile:
   name:     "Aditya Shrimali"
   alias:    "@just-brainwaves"
   class:    AI Engineer / LLM Whisperer
-  origin:   India  # UTC+5:30
+  origin:   India   # UTC+5:30
 
 specialization:
   - Generative AI & LLM systems
@@ -60,26 +62,26 @@ specialization:
 currently:
   building:  "Kyren"
   learning:  "Agentic AI"   # the obsession arc
-  fueled_by: ["caffeine", "stack traces", "vector math"]
+  fueled_by: [caffeine, stack_traces, vector_math]
 
 reach_me:
-  email:     aditya.shrimali.dev@gmail.com
-  fun_fact:  "I name my variables better than my pets"
+  email:    aditya.shrimali.dev@gmail.com
+  fun_fact: "I name my variables better than my pets"
 ```
 
 </td>
-<td width="45%" valign="top" align="center">
-
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Robot.png" width="84"/>
-  <br/><br/>
-
-  <!-- random dev quote, refreshes on load -->
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true" width="100%" alt="quote"/>
+<td width="44%" valign="top" align="center">
 
   <br/>
 
-  <img src="https://img.shields.io/badge/-Open_to_collab-39ff14?style=flat-square&labelColor=0a0e1a"/>
-  <img src="https://img.shields.io/badge/-Ask_me_about_RAG-00f0ff?style=flat-square&labelColor=0a0e1a"/>
+  <!-- rotating dev quote, light theme -->
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light&border=true" width="100%" alt="quote"/>
+
+  <br/><br/>
+
+  <img src="https://img.shields.io/badge/Open_to-collaboration-0e9f6e?style=for-the-badge&labelColor=ffffff" alt="open to collab"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Ask_me_about-RAG_%26_Agents-1c1c22?style=for-the-badge&labelColor=ffffff" alt="ask me about"/>
 
 </td>
 </tr>
@@ -88,31 +90,49 @@ reach_me:
 <img src="./assets/divider.svg" width="100%" alt="---"/>
 
 <!-- ============================ ARSENAL ============================ -->
-<h2 align="center"><code>&gt; ./load_arsenal.sh --verbose</code></h2>
+<h2 align="center"><code>&gt; ./load_arsenal.sh</code></h2>
 
 <div align="center">
 
-### 🧠 &nbsp; AI / ML
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn&theme=dark" />
+<table border="0">
+<tr><td align="center">
+
+**AI / ML**
 <br/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge&logo=meta&logoColor=white"/>
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/RAG-a855f7?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-
-### ⚙️ &nbsp; Languages & Backend
-<img src="https://skillicons.dev/icons?i=python,go,rust,typescript,nodejs,graphql&theme=dark" />
-
-### 🗄️ &nbsp; Data & Infra
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,sqlite,docker,nginx,linux&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn&theme=light" height="44"/>
 <br/>
-<img src="https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-0e9f6e?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+<img src="https://img.shields.io/badge/LlamaIndex-0e9f6e?style=for-the-badge&logo=meta&logoColor=white" alt="LlamaIndex"/>
+<img src="https://img.shields.io/badge/Hugging_Face-0e9f6e?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face"/>
+<img src="https://img.shields.io/badge/OpenAI-0e9f6e?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/RAG-0e9f6e?style=for-the-badge&logoColor=white" alt="RAG"/>
 
-### 🎨 &nbsp; Frontend & Tools
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,figma,git,postman,bash&theme=dark" />
+</td></tr>
+<tr><td align="center">
+
+**Languages & Backend**
+<br/>
+<img src="https://skillicons.dev/icons?i=python,go,rust,typescript,nodejs,graphql&theme=light" height="44"/>
+
+</td></tr>
+<tr><td align="center">
+
+**Data & Infrastructure**
+<br/>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,sqlite,docker,nginx,linux&theme=light" height="44"/>
+<br/>
+<img src="https://img.shields.io/badge/pgvector-0e9f6e?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgvector"/>
+<img src="https://img.shields.io/badge/MariaDB-0e9f6e?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
+
+</td></tr>
+<tr><td align="center">
+
+**Frontend & Tooling**
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,figma,git,postman,bash&theme=light" height="44"/>
+
+</td></tr>
+</table>
 
 </div>
 
@@ -123,32 +143,41 @@ reach_me:
 
 <div align="center">
 
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=just-brainwaves&show_icons=true&count_private=true&hide_border=true&title_color=00f0ff&icon_color=ff2e97&text_color=9eecff&bg_color=0a0e1a" alt="stats"/>
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=just-brainwaves&hide_border=true&background=0a0e1a&stroke=a855f7&ring=ff2e97&fire=39ff14&currStreakLabel=00f0ff&sideLabels=9eecff&dates=5b6b86&currStreakNum=ffffff&sideNums=ffffff" alt="streak"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=just-brainwaves&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="stats"/>
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=just-brainwaves&hide_border=false&border=e9eae7&background=ffffff&stroke=e9eae7&ring=0e9f6e&fire=0e9f6e&currStreakNum=1c1c22&sideNums=434750&currStreakLabel=0e9f6e&sideLabels=9aa0a6&dates=9aa0a6" alt="streak"/>
 
   <br/>
 
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=just-brainwaves&layout=compact&hide_border=true&langs_count=10&title_color=00f0ff&text_color=9eecff&bg_color=0a0e1a" alt="top langs"/>
-  <img height="180" src="https://github-profile-trophy.vercel.app/?username=just-brainwaves&theme=algolia&no-frame=true&no-bg=true&column=3&margin-w=8&margin-h=8" alt="trophies"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=just-brainwaves&layout=compact&langs_count=8&hide_border=false&border_color=e9eae7&title_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="top langs"/>
+  <img height="170" src="https://github-profile-trophy.vercel.app/?username=just-brainwaves&theme=flat&no-frame=true&no-bg=true&column=3&margin-w=10&margin-h=10" alt="trophies"/>
 
-  <!-- contribution activity graph -->
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=just-brainwaves&bg_color=0a0e1a&color=00f0ff&line=a855f7&point=ff2e97&area=true&hide_border=true&custom_title=Neural+Activity+Over+Time" alt="activity graph"/>
+  <br/><br/>
+
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=just-brainwaves&bg_color=ffffff&color=1c1c22&line=0e9f6e&point=0e9f6e&area=true&area_color=c8e9d8&hide_border=false&border_color=e9eae7&title_color=0e9f6e&custom_title=Contribution%20Activity" alt="activity graph"/>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt="---"/>
+
+<!-- ============================ SIGNATURE / MATRIX ============================ -->
+<div align="center">
+
+  <img src="./assets/matrix.svg" width="100%" alt="data stream"/>
 
 </div>
 
 <img src="./assets/divider.svg" width="100%" alt="---"/>
 
 <!-- ============================ PROJECTS ============================ -->
-<h2 align="center"><code>&gt; ls -la ./projects/ | grep -v boring</code></h2>
+<h2 align="center"><code>&gt; ls ./projects/</code></h2>
 
 <div align="center">
 
-  <!-- duplicate this anchor block per repo; just change &repo= -->
   <a href="https://github.com/just-brainwaves/kyren">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=just-brainwaves&repo=kyren&hide_border=true&title_color=39ff14&icon_color=ff2e97&text_color=9eecff&bg_color=0a0e1a" alt="Kyren"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=just-brainwaves&repo=kyren&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="Kyren"/>
   </a>
   <a href="https://github.com/just-brainwaves?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=just-brainwaves&repo=YOUR_SECOND_REPO&hide_border=true&title_color=00f0ff&icon_color=a855f7&text_color=9eecff&bg_color=0a0e1a" alt="repo 2"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=just-brainwaves&repo=YOUR_SECOND_REPO&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="repo 2"/>
   </a>
 
 </div>
@@ -157,7 +186,7 @@ reach_me:
 <tr>
 <td width="50%" valign="top">
 
-#### `[01]` 🤖 &nbsp; Kyren
+#### `[01]` &nbsp; Kyren
 > Current obsession. An agentic AI system exploring autonomous, workflow-driven reasoning.
 
 `Python` · `LLMs` · `Agents` · `RAG`
@@ -167,8 +196,8 @@ reach_me:
 </td>
 <td width="50%" valign="top">
 
-#### `[02]` 🧩 &nbsp; Your Next Build
-> Swap this card in for any repo — RAG pipeline, chatbot, vector search engine, you name it.
+#### `[02]` &nbsp; Your Next Build
+> Swap this card in for any repo — RAG pipeline, chatbot, or vector search engine.
 
 `add` · `your` · `stack` · `here`
 
@@ -187,7 +216,7 @@ reach_me:
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/just-brainwaves/just-brainwaves/output/github-contribution-grid-snake-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/just-brainwaves/just-brainwaves/output/github-contribution-grid-snake.svg"/>
-    <img alt="snake eating contributions" src="https://raw.githubusercontent.com/just-brainwaves/just-brainwaves/output/github-contribution-grid-snake.svg"/>
+    <img alt="snake eating contributions" src="https://raw.githubusercontent.com/just-brainwaves/just-brainwaves/output/github-contribution-grid-snake.svg" width="100%"/>
   </picture>
 </div>
 
@@ -199,24 +228,27 @@ reach_me:
 <div align="center">
 
   <a href="mailto:aditya.shrimali.dev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-ff2e97?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-0e9f6e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://instagram.com/aditya._shrimali">
-    <img src="https://img.shields.io/badge/Instagram-a855f7?style=for-the-badge&logo=instagram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Instagram-1c1c22?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
   <a href="https://leetcode.com/dev-adi">
-    <img src="https://img.shields.io/badge/LeetCode-00f0ff?style=for-the-badge&logo=leetcode&logoColor=black"/>
+    <img src="https://img.shields.io/badge/LeetCode-0e9f6e?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
   </a>
   <a href="https://github.com/just-brainwaves">
-    <img src="https://img.shields.io/badge/GitHub-0a0e1a?style=for-the-badge&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GitHub-1c1c22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 
 </div>
 
 <br/>
 
+<!-- ============================ FOOTER ============================ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=140&section=footer&text=thanks%20for%20scrolling%20this%20far%20%E2%9A%A1&fontColor=00f0ff&fontSize=22&fontAlignY=70&animation=fadeIn" width="100%" alt="footer"/>
 
-  <sub><code>// EOF — if you read the HTML comments too, we'd get along.</code></sub>
+  <img src="./assets/footer.svg" width="100%" alt="footer"/>
+
+  <sub><code>// if you read the HTML comments too, we'd get along.</code></sub>
+
 </div>

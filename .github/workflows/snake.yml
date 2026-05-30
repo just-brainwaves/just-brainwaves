@@ -17,9 +17,11 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # LIGHT  = empty cell light grey, dots fade up through emerald, snake = ink (visible on white)
+          # DARK   = empty cell GitHub-dark grey, dots emerald, snake = emerald
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=a855f7&color_dots=0a0e1a,164e63,0e7490,00f0ff,39ff14
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=1c1c22&color_dots=ebedf0,c8e9d8,8fd6b0,49b888,0e9f6e
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=0e9f6e&color_dots=151b23,1f4d3a,2f7d57,3fae7c,5ee9a8
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
