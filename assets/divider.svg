@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="40" viewBox="0 0 1100 40" fill="none" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="d" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ff2e97" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="b"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+  <line x1="0" y1="20" x2="1100" y2="20" stroke="url(#d)" stroke-width="2"/>
+  <line x1="0" y1="20" x2="1100" y2="20" stroke="url(#d)" stroke-width="6" filter="url(#b)" opacity="0.5"/>
+  <!-- traveling packet -->
+  <circle cy="20" r="5" fill="#39ff14" filter="url(#b)">
+    <animate attributeName="cx" values="0;1100;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cy="20" r="2.5" fill="#fff">
+    <animate attributeName="cx" values="0;1100;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- center node -->
+  <polygon points="550,8 562,20 550,32 538,20" fill="#0a0e1a" stroke="#a855f7" stroke-width="1.5">
+    <animateTransform attributeName="transform" type="rotate" from="0 550 20" to="360 550 20" dur="6s" repeatCount="indefinite"/>
+  </polygon>
+</svg>
