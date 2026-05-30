@@ -134,12 +134,12 @@ reach_me:
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats-just-brainwaves.vercel.app/api?username=just-brainwaves&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="stats"/>
+  <img height="170" src="https://github-readme-stats-just-brainwaves.vercel.app/api?username=just-brainwaves&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff&v=2" alt="stats"/>
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=just-brainwaves&hide_border=false&border=e9eae7&background=ffffff&stroke=e9eae7&ring=0e9f6e&fire=0e9f6e&currStreakNum=1c1c22&sideNums=434750&currStreakLabel=0e9f6e&sideLabels=9aa0a6&dates=9aa0a6" alt="streak"/>
 
   <br/>
 
-  <img height="170" src="https://github-readme-stats-just-brainwaves.vercel.app/api/top-langs/?username=just-brainwaves&layout=compact&langs_count=8&hide_border=false&border_color=e9eae7&title_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="top langs"/>
+  <img height="170" src="https://github-readme-stats-just-brainwaves.vercel.app/api/top-langs/?username=just-brainwaves&layout=compact&langs_count=8&hide_border=false&border_color=e9eae7&title_color=0e9f6e&text_color=434750&bg_color=ffffff&v=2" alt="top langs"/>
 
   <br/><br/>
 
@@ -155,7 +155,7 @@ reach_me:
 <div align="center">
 
   <a href="https://github.com/just-brainwaves/moonshrine">
-    <img src="https://github-readme-stats-just-brainwaves.vercel.app/api/pin/?username=just-brainwaves&repo=moonshrine&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="Moonshrine"/>
+    <img src="https://github-readme-stats-just-brainwaves.vercel.app/api/pin/?username=just-brainwaves&repo=moonshrine&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff&v=2" alt="Moonshrine"/>
   </a>
 
 </div>
