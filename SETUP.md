@@ -14,8 +14,7 @@ just-brainwaves/
 ├── README.md
 ├── assets/
 │   ├── header.svg      ← hero banner (self-drawing lines)
-│   ├── terminal.svg    ← light "whoami" console
-│   ├── matrix.svg      ← the signature data-rain piece
+│   ├── pipeline.svg    ← RAG pipeline signature visual
 │   ├── divider.svg     ← reused section divider
 │   └── footer.svg      ← animated wave footer
 └── .github/
@@ -37,7 +36,27 @@ Relative paths (`./assets/header.svg`) resolve once everything is in the repo.
 > fade up through emerald, with an ink-colored snake that stays visible on white.
 > The README also defaults to the **light** SVG.
 
-### 4. Personalize
+### 4. Host your own stats instance 📊
+The **stats**, **top-langs**, and **project pin** cards use
+[`github-readme-stats`](https://github.com/anuraghazra/github-readme-stats). The
+shared public instance (`github-readme-stats.vercel.app`) is chronically
+rate-limited and frequently returns `503 DEPLOYMENT_PAUSED`, which is why those
+cards show as broken images. The fix is a free 2-minute self-host:
+
+1. Deploy your own copy (one click):
+   <https://vercel.com/new/clone?repository-url=https://github.com/anuraghazra/github-readme-stats>
+2. When Vercel asks for a **project name**, use `github-readme-stats-just-brainwaves`
+   so the deployed URL becomes `https://github-readme-stats-just-brainwaves.vercel.app`
+   (the exact host this README already points to — no edits needed).
+3. *(Optional)* For private-commit counts, add a `PAT_1` env var in Vercel with a
+   GitHub token (`repo` + `read:user` scopes), then redeploy.
+
+> Forking to a different name? Swap the host everywhere in one shot:
+> ```bash
+> sed -i 's#github-readme-stats-just-brainwaves\.vercel\.app#YOUR-INSTANCE.vercel.app#g' README.md
+> ```
+
+### 5. Personalize
 - Every stat/card already uses `just-brainwaves` — change it if you fork.
 - In **Projects**, duplicate the pin-card block and set `&repo=YOUR_REPO`.
 - Recolor everything by swapping the palette (search the hex codes):
@@ -52,8 +71,8 @@ Relative paths (`./assets/header.svg`) resolve once everything is in the repo.
   | line    | `#e9eae7`  | hairlines / borders              |
   | emerald | `#0e9f6e`  | the single accent (everything)   |
 
-> Heads up: the animated SVGs (`header`, `terminal`, `matrix`, `divider`,
-> `footer`) animate in GitHub's browser view because SMIL + in-SVG CSS survive
+> Heads up: the animated SVGs (`header`, `pipeline`, `divider`, `footer`)
+> animate in GitHub's browser view because SMIL + in-SVG CSS survive
 > GitHub's image proxy. Static previews (and some markdown renderers) show them
 > frozen — that's expected. No external GIFs or emoji-PNGs are used, so there
 > are no broken-image links to chase.

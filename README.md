@@ -16,7 +16,7 @@
 
   <!-- typing tagline (emerald, light) -->
   <a href="https://github.com/just-brainwaves">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=900&color=0E9F6E&center=true&vCenter=true&width=820&height=44&lines=Teaching+silicon+to+hallucinate+less;Retrieval-Augmented+everything;Shipping+agents+that+actually+do+the+thing;%24+sudo+rm+-rf+%2Fboring%2Fcode" alt="typing tagline"/>
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=0E9F6E&center=true&vCenter=true&width=760&height=42&lines=Teaching+silicon+to+hallucinate+less;Retrieval-Augmented+everything;Shipping+agents+that+actually+do+the+thing" alt="typing tagline"/>
   </a>
 
   <br/><br/>
@@ -25,26 +25,21 @@
   <img src="https://komarev.com/ghpvc/?username=just-brainwaves&style=flat-square&color=0e9f6e&labelColor=ffffff&label=PROFILE+VIEWS" alt="views"/>
   <img src="https://img.shields.io/github/followers/just-brainwaves?style=flat-square&color=0e9f6e&labelColor=ffffff&logo=github&logoColor=1c1c22&label=FOLLOWERS" alt="followers"/>
   <img src="https://img.shields.io/badge/FOCUS-agentic_ai-1c1c22?style=flat-square&labelColor=ffffff" alt="focus"/>
-  <img src="https://img.shields.io/badge/STATUS-probably_debugging-0e9f6e?style=flat-square&labelColor=ffffff" alt="status"/>
+  <img src="https://img.shields.io/badge/BASED_IN-india-0e9f6e?style=flat-square&labelColor=ffffff" alt="location"/>
 
-</div>
+  <br/><br/>
 
-<!-- ============================ BOOT LOG ============================ -->
-<div align="center">
-
-  <br/>
-  <img src="./assets/terminal.svg" width="80%" alt="whoami console"/>
+  <!-- signature visual: how I think about systems -->
+  <img src="./assets/pipeline.svg" width="82%" alt="Retrieval-Augmented Generation pipeline"/>
 
 </div>
 
 <img src="./assets/divider.svg" width="100%" alt="---"/>
 
 <!-- ============================ ABOUT ============================ -->
-<h2 align="center"><code>&gt; cat ./about.md</code></h2>
+<h3 align="center">About</h3>
 
-<table align="center" border="0">
-<tr>
-<td width="56%" valign="top">
+<table align="center"><tr><td>
 
 ```yaml
 profile:
@@ -69,28 +64,25 @@ reach_me:
   fun_fact: "I name my variables better than my pets"
 ```
 
-</td>
-<td width="44%" valign="top" align="center">
+</td></tr></table>
+
+<div align="center">
 
   <br/>
 
-  <!-- rotating dev quote, light theme -->
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light&border=true" width="100%" alt="quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light&border=true" width="62%" alt="quote"/>
 
   <br/><br/>
 
   <img src="https://img.shields.io/badge/Open_to-collaboration-0e9f6e?style=for-the-badge&labelColor=ffffff" alt="open to collab"/>
-  <br/>
   <img src="https://img.shields.io/badge/Ask_me_about-RAG_%26_Agents-1c1c22?style=for-the-badge&labelColor=ffffff" alt="ask me about"/>
 
-</td>
-</tr>
-</table>
+</div>
 
 <img src="./assets/divider.svg" width="100%" alt="---"/>
 
-<!-- ============================ ARSENAL ============================ -->
-<h2 align="center"><code>&gt; ./load_arsenal.sh</code></h2>
+<!-- ============================ TECH STACK ============================ -->
+<h3 align="center">Tech Stack</h3>
 
 <div align="center">
 
@@ -105,7 +97,6 @@ reach_me:
 <img src="https://img.shields.io/badge/LlamaIndex-0e9f6e?style=for-the-badge&logo=meta&logoColor=white" alt="LlamaIndex"/>
 <img src="https://img.shields.io/badge/Hugging_Face-0e9f6e?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face"/>
 <img src="https://img.shields.io/badge/OpenAI-0e9f6e?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
-<img src="https://img.shields.io/badge/RAG-0e9f6e?style=for-the-badge&logoColor=white" alt="RAG"/>
 
 </td></tr>
 <tr><td align="center">
@@ -138,18 +129,17 @@ reach_me:
 
 <img src="./assets/divider.svg" width="100%" alt="---"/>
 
-<!-- ============================ STATS ============================ -->
-<h2 align="center"><code>&gt; htop --user=just-brainwaves</code></h2>
+<!-- ============================ GITHUB ACTIVITY ============================ -->
+<h3 align="center">GitHub Activity</h3>
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=just-brainwaves&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="stats"/>
+  <img height="170" src="https://github-readme-stats-just-brainwaves.vercel.app/api?username=just-brainwaves&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="stats"/>
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=just-brainwaves&hide_border=false&border=e9eae7&background=ffffff&stroke=e9eae7&ring=0e9f6e&fire=0e9f6e&currStreakNum=1c1c22&sideNums=434750&currStreakLabel=0e9f6e&sideLabels=9aa0a6&dates=9aa0a6" alt="streak"/>
 
   <br/>
 
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=just-brainwaves&layout=compact&langs_count=8&hide_border=false&border_color=e9eae7&title_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="top langs"/>
-  <img height="170" src="https://github-profile-trophy.vercel.app/?username=just-brainwaves&theme=flat&no-frame=true&no-bg=true&column=3&margin-w=10&margin-h=10" alt="trophies"/>
+  <img height="170" src="https://github-readme-stats-just-brainwaves.vercel.app/api/top-langs/?username=just-brainwaves&layout=compact&langs_count=8&hide_border=false&border_color=e9eae7&title_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="top langs"/>
 
   <br/><br/>
 
@@ -159,25 +149,13 @@ reach_me:
 
 <img src="./assets/divider.svg" width="100%" alt="---"/>
 
-<!-- ============================ SIGNATURE / MATRIX ============================ -->
-<div align="center">
-
-  <img src="./assets/matrix.svg" width="100%" alt="data stream"/>
-
-</div>
-
-<img src="./assets/divider.svg" width="100%" alt="---"/>
-
 <!-- ============================ PROJECTS ============================ -->
-<h2 align="center"><code>&gt; ls ./projects/</code></h2>
+<h3 align="center">Projects</h3>
 
 <div align="center">
 
-  <a href="https://github.com/just-brainwaves/kyren">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=just-brainwaves&repo=kyren&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="Kyren"/>
-  </a>
-  <a href="https://github.com/just-brainwaves?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=just-brainwaves&repo=YOUR_SECOND_REPO&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="repo 2"/>
+  <a href="https://github.com/just-brainwaves/moonshrine">
+    <img src="https://github-readme-stats-just-brainwaves.vercel.app/api/pin/?username=just-brainwaves&repo=moonshrine&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff" alt="Moonshrine"/>
   </a>
 
 </div>
@@ -186,22 +164,22 @@ reach_me:
 <tr>
 <td width="50%" valign="top">
 
-#### `[01]` &nbsp; Kyren
-> Current obsession. An agentic AI system exploring autonomous, workflow-driven reasoning.
+#### Moonshrine
+> An opinionated Arch + Hyprland setup on CachyOS for developers who like efficiency — dark to the point of disappearing, with a scarlet accent that bleeds through every active state.
 
-`Python` · `LLMs` · `Agents` · `RAG`
+`Hyprland` · `CachyOS` · `dotfiles` · `ricing`
 
-[`→ explore`](https://github.com/just-brainwaves/kyren)
+[→ explore](https://github.com/just-brainwaves/moonshrine)
 
 </td>
 <td width="50%" valign="top">
 
-#### `[02]` &nbsp; Your Next Build
+#### Your Next Build
 > Swap this card in for any repo — RAG pipeline, chatbot, or vector search engine.
 
 `add` · `your` · `stack` · `here`
 
-[`→ explore`](https://github.com/just-brainwaves?tab=repositories)
+[→ explore](https://github.com/just-brainwaves?tab=repositories)
 
 </td>
 </tr>
@@ -209,8 +187,8 @@ reach_me:
 
 <img src="./assets/divider.svg" width="100%" alt="---"/>
 
-<!-- ============================ SNAKE ============================ -->
-<h2 align="center"><code>&gt; ./contribution_snake --eat-the-grid</code></h2>
+<!-- ============================ CONTRIBUTION GRAPH ============================ -->
+<h3 align="center">Contribution Graph</h3>
 
 <div align="center">
   <picture>
@@ -223,7 +201,7 @@ reach_me:
 <img src="./assets/divider.svg" width="100%" alt="---"/>
 
 <!-- ============================ CONNECT ============================ -->
-<h2 align="center"><code>&gt; ping aditya --connect</code></h2>
+<h3 align="center">Connect</h3>
 
 <div align="center">
 
