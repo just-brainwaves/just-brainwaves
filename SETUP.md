@@ -1,8 +1,8 @@
 # 🛠️ Setup — 4 steps
 
-This is a **GitHub profile README** with an *Architectural Light* theme
-(bone-white background · ink type · a single emerald accent). To make it appear
-on your profile:
+This is a **GitHub profile README** with an *Architectural Dark* theme
+(ink-black background · slate type · a single emerald accent) that blends into
+GitHub's dark UI. To make it appear on your profile:
 
 ### 1. Create the magic repo
 Make a repo named **exactly** your username: `just-brainwaves/just-brainwaves`
@@ -61,15 +61,18 @@ cards show as broken images. The fix is a free 2-minute self-host:
 - In **Projects**, duplicate the pin-card block and set `&repo=YOUR_REPO`.
 - Recolor everything by swapping the palette (search the hex codes):
 
-  | token   | hex        | used for                         |
-  |---------|------------|----------------------------------|
-  | paper   | `#ffffff`  | card backgrounds                 |
-  | bone    | `#fbfbfa`  | banner / footer background       |
-  | ink     | `#111114`  | headings / wordmark              |
-  | graphite| `#3f3f46`  | body text                        |
-  | slate   | `#9aa0a6`  | muted captions                   |
-  | line    | `#e9eae7`  | hairlines / borders              |
-  | emerald | `#0e9f6e`  | the single accent (everything)   |
+  | token     | hex        | used for                              |
+  |-----------|------------|---------------------------------------|
+  | bg        | `#0d1117`  | card / banner background (GitHub dark) |
+  | bg-deep   | `#010409`  | gradient floor                        |
+  | surface   | `#161b22`  | elevated panels / badge labels        |
+  | line      | `#30363d`  | hairlines / borders                   |
+  | text      | `#e6edf3`  | headings / wordmark                   |
+  | body      | `#adbac7`  | card body text                        |
+  | muted     | `#8b949e`  | captions                              |
+  | emerald   | `#10b981`  | the single accent                     |
+  | emerald+  | `#34d399`  | bright accent / hover glow            |
+  | glow      | `#5ee9a8`  | traveling-node highlight              |
 
 > Heads up: the animated SVGs (`header`, `pipeline`, `divider`, `footer`)
 > animate in GitHub's browser view because SMIL + in-SVG CSS survive

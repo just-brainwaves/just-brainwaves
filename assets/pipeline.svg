@@ -1,12 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" fill="none" role="img" aria-label="Agentic Chatbot Cognitive Architecture pipeline">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" fill="none" role="img" aria-label="Agentic Cognitive Architecture pipeline">
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#fbfbfa"/>
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
-    <pattern id="bg" width="34" height="34" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#9aa0a6" fill-opacity="0.13"/>
+    <linearGradient id="cardBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#30363d"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.30"/>
+    </linearGradient>
+    <linearGradient id="finalNode" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <pattern id="bg" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#8b949e" fill-opacity="0.09"/>
     </pattern>
+    <filter id="glowDot" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
 
     <style>
       .sans { font-family:'Segoe UI','SF Pro Display','Helvetica Neue',-apple-system,system-ui,sans-serif; }
@@ -26,18 +38,18 @@
     </style>
   </defs>
 
-  <rect x="14" y="18" width="872" height="252" rx="18" fill="#e8e9e6" opacity="0.55"/>
-  <rect x="10" y="12" width="872" height="252" rx="18" fill="url(#card)" stroke="#e6e7e3" stroke-width="1.5"/>
+  <rect x="14" y="18" width="872" height="252" rx="18" fill="#10b981" opacity="0.06"/>
+  <rect x="10" y="12" width="872" height="252" rx="18" fill="url(#card)" stroke="url(#cardBorder)" stroke-width="1.5"/>
   <rect x="10" y="12" width="872" height="252" rx="18" fill="url(#bg)"/>
 
   <g class="head">
-    <circle cx="42" cy="46" r="4" fill="#0e9f6e"/>
-    <text x="56" y="50" class="mono" font-size="12.5" letter-spacing="3" fill="#6b7280">AGENTIC&#160;COGNITIVE&#160;ARCHITECTURE</text>
-    <text x="846" y="50" text-anchor="end" class="mono" font-size="12" letter-spacing="1.5" fill="#bfc4c1">how I think about agent workflows</text>
+    <circle cx="42" cy="46" r="4" fill="#10b981"/>
+    <text x="56" y="50" class="mono" font-size="12.5" letter-spacing="3" fill="#8b949e">AGENTIC&#160;COGNITIVE&#160;ARCHITECTURE</text>
+    <text x="846" y="50" text-anchor="end" class="mono" font-size="12" letter-spacing="1.5" fill="#586069">how I think about agent workflows</text>
   </g>
-  <line x1="42" y1="66" x2="846" y2="66" stroke="#eef0ec" stroke-width="1"/>
+  <line x1="42" y1="66" x2="846" y2="66" stroke="#21262d" stroke-width="1"/>
 
-  <g fill="none" stroke="#d3d7d2" stroke-width="1.6" stroke-linecap="round">
+  <g fill="none" stroke="#30363d" stroke-width="1.6" stroke-linecap="round">
     <path class="link l0" d="M192 158 H219"/>
     <path class="link l1" d="M357 158 H384"/>
     <path class="link l2" d="M522 158 H549"/>
@@ -45,56 +57,60 @@
   </g>
 
   <g class="node n0">
-    <rect x="60" y="126" width="132" height="64" rx="13" fill="#ffffff" stroke="#e3e5e1" stroke-width="1.5"/>
-    <rect class="glow" x="60" y="126" width="132" height="64" rx="13" fill="none" stroke="#0e9f6e" stroke-width="1.8" opacity="0">
+    <rect x="60" y="126" width="132" height="64" rx="13" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <rect x="60" y="126" width="132" height="64" rx="13" fill="none" stroke="#10b981" stroke-width="1.8" opacity="0">
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.03;0.078;0.13;1" dur="4s" begin="1.6s" repeatCount="indefinite"/>
     </rect>
-    <text x="126" y="156" text-anchor="middle" class="sans" font-size="16" font-weight="600" fill="#1c1c22">Goal</text>
-    <text x="126" y="175" text-anchor="middle" class="mono" font-size="10.5" letter-spacing="1" fill="#9aa0a6">tasks</text>
+    <text x="126" y="156" text-anchor="middle" class="sans" font-size="16" font-weight="600" fill="#e6edf3">Goal</text>
+    <text x="126" y="175" text-anchor="middle" class="mono" font-size="10.5" letter-spacing="1" fill="#8b949e">tasks</text>
   </g>
 
   <g class="node n1">
-    <rect x="225" y="126" width="132" height="64" rx="13" fill="#ffffff" stroke="#e3e5e1" stroke-width="1.5"/>
-    <rect class="glow" x="225" y="126" width="132" height="64" rx="13" fill="none" stroke="#0e9f6e" stroke-width="1.8" opacity="0">
+    <rect x="225" y="126" width="132" height="64" rx="13" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <rect x="225" y="126" width="132" height="64" rx="13" fill="none" stroke="#10b981" stroke-width="1.8" opacity="0">
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.24;0.288;0.34;1" dur="4s" begin="1.6s" repeatCount="indefinite"/>
     </rect>
-    <text x="291" y="156" text-anchor="middle" class="sans" font-size="16" font-weight="600" fill="#1c1c22">Plan</text>
-    <text x="291" y="175" text-anchor="middle" class="mono" font-size="10.5" letter-spacing="1" fill="#9aa0a6">reasoning</text>
+    <text x="291" y="156" text-anchor="middle" class="sans" font-size="16" font-weight="600" fill="#e6edf3">Plan</text>
+    <text x="291" y="175" text-anchor="middle" class="mono" font-size="10.5" letter-spacing="1" fill="#8b949e">reasoning</text>
   </g>
 
   <g class="node n2">
-    <rect x="390" y="126" width="132" height="64" rx="13" fill="#ffffff" stroke="#e3e5e1" stroke-width="1.5"/>
-    <rect class="glow" x="390" y="126" width="132" height="64" rx="13" fill="none" stroke="#0e9f6e" stroke-width="1.8" opacity="0">
+    <rect x="390" y="126" width="132" height="64" rx="13" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <rect x="390" y="126" width="132" height="64" rx="13" fill="none" stroke="#10b981" stroke-width="1.8" opacity="0">
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.45;0.5;0.55;1" dur="4s" begin="1.6s" repeatCount="indefinite"/>
     </rect>
-    <text x="456" y="156" text-anchor="middle" class="sans" font-size="16" font-weight="600" fill="#1c1c22">Execute</text>
-    <text x="456" y="175" text-anchor="middle" class="mono" font-size="10.5" letter-spacing="1" fill="#9aa0a6">actions</text>
+    <text x="456" y="156" text-anchor="middle" class="sans" font-size="16" font-weight="600" fill="#e6edf3">Execute</text>
+    <text x="456" y="175" text-anchor="middle" class="mono" font-size="10.5" letter-spacing="1" fill="#8b949e">actions</text>
   </g>
 
   <g class="node n3">
-    <rect x="555" y="126" width="132" height="64" rx="13" fill="#ffffff" stroke="#e3e5e1" stroke-width="1.5"/>
-    <rect class="glow" x="555" y="126" width="132" height="64" rx="13" fill="none" stroke="#0e9f6e" stroke-width="1.8" opacity="0">
+    <rect x="555" y="126" width="132" height="64" rx="13" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <rect x="555" y="126" width="132" height="64" rx="13" fill="none" stroke="#10b981" stroke-width="1.8" opacity="0">
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.66;0.713;0.76;1" dur="4s" begin="1.6s" repeatCount="indefinite"/>
     </rect>
-    <text x="621" y="156" text-anchor="middle" class="sans" font-size="16" font-weight="600" fill="#1c1c22">State</text>
-    <text x="621" y="175" text-anchor="middle" class="mono" font-size="10.5" letter-spacing="1" fill="#9aa0a6">context</text>
+    <text x="621" y="156" text-anchor="middle" class="sans" font-size="16" font-weight="600" fill="#e6edf3">State</text>
+    <text x="621" y="175" text-anchor="middle" class="mono" font-size="10.5" letter-spacing="1" fill="#8b949e">context</text>
   </g>
 
   <g class="node n4">
-    <rect x="720" y="126" width="132" height="64" rx="13" fill="#0e9f6e" stroke="#0e9f6e" stroke-width="1.5"/>
-    <rect class="glow" x="720" y="126" width="132" height="64" rx="13" fill="none" stroke="#ffffff" stroke-width="1.6" opacity="0">
+    <rect x="720" y="126" width="132" height="64" rx="13" fill="url(#finalNode)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="720" y="126" width="132" height="64" rx="13" fill="none" stroke="#d1fae5" stroke-width="1.6" opacity="0">
       <animate attributeName="opacity" values="0;0;0.9;0;0" keyTimes="0;0.87;0.923;0.97;1" dur="4s" begin="1.6s" repeatCount="indefinite"/>
     </rect>
-    <text x="786" y="156" text-anchor="middle" class="sans" font-size="16" font-weight="600" fill="#ffffff">Generate</text>
-    <text x="786" y="175" text-anchor="middle" class="mono" font-size="10.5" letter-spacing="1" fill="#cdeede">llm</text>
+    <text x="786" y="156" text-anchor="middle" class="sans" font-size="16" font-weight="600" fill="#04130d">Generate</text>
+    <text x="786" y="175" text-anchor="middle" class="mono" font-size="10.5" letter-spacing="1" fill="#0a3a28">llm</text>
   </g>
 
-  <circle r="4.5" fill="#0e9f6e" opacity="0">
+  <circle r="4.5" fill="#5ee9a8" opacity="0" filter="url(#glowDot)">
+    <animateMotion path="M126 158 H786" dur="4s" begin="1.6s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+    <animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.05;0.5;0.95;1" dur="4s" begin="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#5ee9a8" opacity="0">
     <animateMotion path="M126 158 H786" dur="4s" begin="1.6s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
     <animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.05;0.5;0.95;1" dur="4s" begin="1.6s" repeatCount="indefinite"/>
   </circle>
 
-  <text x="446" y="238" text-anchor="middle" class="mono" font-size="11.5" letter-spacing="0.4" fill="#9aa0a6">
-    currently exploring <tspan fill="#1c1c22" font-weight="600">Agentic Frameworks</tspan><tspan fill="#cbd0cb"> — </tspan>cognitive, workflow-driven intelligence
+  <text x="446" y="238" text-anchor="middle" class="mono" font-size="11.5" letter-spacing="0.4" fill="#8b949e">
+    currently exploring <tspan fill="#e6edf3" font-weight="600">Agentic Frameworks</tspan><tspan fill="#586069"> — </tspan>cognitive, workflow-driven intelligence
   </text>
 </svg>

@@ -1,17 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" fill="none" role="img" aria-label="footer">
   <defs>
-    <linearGradient id="fpaper" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fbfbfa"/>
-      <stop offset="100%" stop-color="#ffffff"/>
+    <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#010409"/>
     </linearGradient>
     <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0e9f6e" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#0e9f6e"/>
-      <stop offset="100%" stop-color="#0e9f6e" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="ftxt" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#111114"/>
-      <stop offset="100%" stop-color="#0e9f6e"/>
+      <stop offset="0%" stop-color="#e6edf3"/>
+      <stop offset="100%" stop-color="#34d399"/>
     </linearGradient>
     <style>
       .sans { font-family:'Segoe UI','SF Pro Display','Helvetica Neue',system-ui,sans-serif; }
@@ -21,18 +26,18 @@
     </style>
   </defs>
 
-  <rect width="1200" height="170" rx="22" fill="url(#fpaper)"/>
+  <rect width="1200" height="170" rx="22" fill="url(#fbg)"/>
 
   <!-- layered animated waves (phase-shifted line drawings) -->
-  <g fill="none" stroke="url(#wave)" stroke-linecap="round">
-    <path stroke-width="2" opacity="0.9" d="M0 70 C 150 30, 300 110, 450 70 S 750 30, 900 70 S 1200 110, 1200 70">
+  <g fill="none" stroke-linecap="round">
+    <path stroke="url(#wave)" stroke-width="2" opacity="0.95" d="M0 70 C 150 30, 300 110, 450 70 S 750 30, 900 70 S 1200 110, 1200 70">
       <animate attributeName="d"
         values="M0 70 C 150 30, 300 110, 450 70 S 750 30, 900 70 S 1200 110, 1200 70;
                 M0 70 C 150 110, 300 30, 450 70 S 750 110, 900 70 S 1200 30, 1200 70;
                 M0 70 C 150 30, 300 110, 450 70 S 750 30, 900 70 S 1200 110, 1200 70"
         dur="9s" repeatCount="indefinite"/>
     </path>
-    <path stroke-width="1.4" opacity="0.45" d="M0 86 C 200 60, 360 120, 560 86 S 820 52, 1000 86 S 1200 110, 1200 86">
+    <path stroke="url(#wave2)" stroke-width="1.4" opacity="0.5" d="M0 86 C 200 60, 360 120, 560 86 S 820 52, 1000 86 S 1200 110, 1200 86">
       <animate attributeName="d"
         values="M0 86 C 200 60, 360 120, 560 86 S 820 52, 1000 86 S 1200 110, 1200 86;
                 M0 86 C 200 116, 360 56, 560 86 S 820 120, 1000 86 S 1200 56, 1200 86;
@@ -42,7 +47,7 @@
   </g>
 
   <!-- traveling node on the wave -->
-  <circle r="4" fill="#0e9f6e">
+  <circle r="4" fill="#5ee9a8">
     <animate attributeName="cx" values="40;1160;40" dur="9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
     <animate attributeName="cy" values="70;70;70" dur="9s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="4.5s" repeatCount="indefinite"/>
@@ -50,6 +55,6 @@
 
   <g text-anchor="middle">
     <text x="600" y="124" class="sans" font-size="20" font-weight="700" letter-spacing="-0.3" fill="url(#ftxt)">thanks for scrolling this far</text>
-    <text x="600" y="150" class="mono" font-size="12" letter-spacing="2" fill="#9aa0a6">// EOF — let’s build something good<tspan class="c" fill="#0e9f6e">_</tspan></text>
+    <text x="600" y="150" class="mono" font-size="12" letter-spacing="2" fill="#8b949e">// EOF — let’s build something good<tspan class="c" fill="#34d399">_</tspan></text>
   </g>
 </svg>

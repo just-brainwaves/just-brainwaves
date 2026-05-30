@@ -1,8 +1,8 @@
 <!--
 ═══════════════════════════════════════════════════════════════
   ADITYA SHRIMALI · GITHUB PROFILE README
-  Theme: "Architectural Light" — bone-white · ink · emerald accent
-  Hand-built animated SVGs + light-themed stat services
+  Theme: "Architectural Dark" — ink-black · slate · emerald accent
+  Hand-built animated SVGs + dark-themed stat services
   Swap `just-brainwaves` for your username if you fork this.
 ═══════════════════════════════════════════════════════════════
 -->
@@ -14,18 +14,18 @@
 
   <br/>
 
-  <!-- typing tagline (emerald, light) -->
+  <!-- typing tagline (emerald, dark) -->
   <a href="https://github.com/just-brainwaves">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=0E9F6E&center=true&vCenter=true&width=760&height=42&lines=Teaching+silicon+to+hallucinate+less;Retrieval-Augmented+everything;Shipping+agents+that+actually+do+the+thing" alt="typing tagline"/>
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=34D399&center=true&vCenter=true&width=760&height=42&lines=Teaching+silicon+to+hallucinate+less;Retrieval-Augmented+everything;Shipping+agents+that+actually+do+the+thing" alt="typing tagline"/>
   </a>
 
   <br/><br/>
 
-  <!-- live badges (flat, light, emerald) -->
-  <img src="https://komarev.com/ghpvc/?username=just-brainwaves&style=flat-square&color=0e9f6e&labelColor=ffffff&label=PROFILE+VIEWS" alt="views"/>
-  <img src="https://img.shields.io/github/followers/just-brainwaves?style=flat-square&color=0e9f6e&labelColor=ffffff&logo=github&logoColor=1c1c22&label=FOLLOWERS" alt="followers"/>
-  <img src="https://img.shields.io/badge/FOCUS-agentic_ai-1c1c22?style=flat-square&labelColor=ffffff" alt="focus"/>
-  <img src="https://img.shields.io/badge/BASED_IN-india-0e9f6e?style=flat-square&labelColor=ffffff" alt="location"/>
+  <!-- live badges (flat, dark, emerald) -->
+  <img src="https://komarev.com/ghpvc/?username=just-brainwaves&style=flat-square&color=10b981&labelColor=161b22&label=PROFILE+VIEWS" alt="views"/>
+  <img src="https://img.shields.io/github/followers/just-brainwaves?style=flat-square&color=10b981&labelColor=161b22&logo=github&logoColor=e6edf3&label=FOLLOWERS" alt="followers"/>
+  <img src="https://img.shields.io/badge/FOCUS-agentic_ai-30363d?style=flat-square&labelColor=161b22" alt="focus"/>
+  <img src="https://img.shields.io/badge/BASED_IN-india-10b981?style=flat-square&labelColor=161b22" alt="location"/>
 
   <br/><br/>
 
@@ -70,12 +70,12 @@ reach_me:
 
   <br/>
 
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light&border=true" width="62%" alt="quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true" width="62%" alt="quote"/>
 
   <br/><br/>
 
-  <img src="https://img.shields.io/badge/Open_to-collaboration-0e9f6e?style=for-the-badge&labelColor=ffffff" alt="open to collab"/>
-  <img src="https://img.shields.io/badge/Ask_me_about-RAG_%26_Agents-1c1c22?style=for-the-badge&labelColor=ffffff" alt="ask me about"/>
+  <img src="https://img.shields.io/badge/Open_to-collaboration-10b981?style=for-the-badge&labelColor=161b22" alt="open to collab"/>
+  <img src="https://img.shields.io/badge/Ask_me_about-RAG_%26_Agents-21262d?style=for-the-badge&labelColor=161b22" alt="ask me about"/>
 
 </div>
 
@@ -91,36 +91,36 @@ reach_me:
 
 **AI / ML**
 <br/>
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn&theme=light" height="44"/>
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn&theme=dark" height="44"/>
 <br/>
-<img src="https://img.shields.io/badge/LangChain-0e9f6e?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
-<img src="https://img.shields.io/badge/LlamaIndex-0e9f6e?style=for-the-badge&logo=meta&logoColor=white" alt="LlamaIndex"/>
-<img src="https://img.shields.io/badge/Hugging_Face-0e9f6e?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face"/>
-<img src="https://img.shields.io/badge/OpenAI-0e9f6e?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/LangChain-10b981?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+<img src="https://img.shields.io/badge/LlamaIndex-10b981?style=for-the-badge&logo=meta&logoColor=white" alt="LlamaIndex"/>
+<img src="https://img.shields.io/badge/Hugging_Face-10b981?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face"/>
+<img src="https://img.shields.io/badge/OpenAI-10b981?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
 
 </td></tr>
 <tr><td align="center">
 
 **Languages & Backend**
 <br/>
-<img src="https://skillicons.dev/icons?i=python,go,rust,typescript,nodejs,graphql&theme=light" height="44"/>
+<img src="https://skillicons.dev/icons?i=python,go,rust,typescript,nodejs,graphql&theme=dark" height="44"/>
 
 </td></tr>
 <tr><td align="center">
 
 **Data & Infrastructure**
 <br/>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,sqlite,docker,nginx,linux&theme=light" height="44"/>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,sqlite,docker,nginx,linux&theme=dark" height="44"/>
 <br/>
-<img src="https://img.shields.io/badge/pgvector-0e9f6e?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgvector"/>
-<img src="https://img.shields.io/badge/MariaDB-0e9f6e?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
+<img src="https://img.shields.io/badge/pgvector-10b981?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgvector"/>
+<img src="https://img.shields.io/badge/MariaDB-10b981?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
 
 </td></tr>
 <tr><td align="center">
 
 **Frontend & Tooling**
 <br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,figma,git,postman,bash&theme=light" height="44"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,figma,git,postman,bash&theme=dark" height="44"/>
 
 </td></tr>
 </table>
@@ -134,16 +134,16 @@ reach_me:
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats-just-brainwaves.vercel.app/api?username=just-brainwaves&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff&v=2" alt="stats"/>
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=just-brainwaves&hide_border=false&border=e9eae7&background=ffffff&stroke=e9eae7&ring=0e9f6e&fire=0e9f6e&currStreakNum=1c1c22&sideNums=434750&currStreakLabel=0e9f6e&sideLabels=9aa0a6&dates=9aa0a6" alt="streak"/>
+  <img height="170" src="https://github-readme-stats-just-brainwaves.vercel.app/api?username=just-brainwaves&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&border_color=30363d&title_color=10b981&icon_color=10b981&text_color=adbac7&bg_color=0d1117&v=2" alt="stats"/>
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=just-brainwaves&hide_border=false&border=30363d&background=0d1117&stroke=30363d&ring=10b981&fire=10b981&currStreakNum=e6edf3&sideNums=adbac7&currStreakLabel=10b981&sideLabels=8b949e&dates=8b949e" alt="streak"/>
 
   <br/>
 
-  <img height="170" src="https://github-readme-stats-just-brainwaves.vercel.app/api/top-langs/?username=just-brainwaves&layout=compact&langs_count=8&hide_border=false&border_color=e9eae7&title_color=0e9f6e&text_color=434750&bg_color=ffffff&v=2" alt="top langs"/>
+  <img height="170" src="https://github-readme-stats-just-brainwaves.vercel.app/api/top-langs/?username=just-brainwaves&layout=compact&langs_count=8&hide_border=false&border_color=30363d&title_color=10b981&text_color=adbac7&bg_color=0d1117&v=2" alt="top langs"/>
 
   <br/><br/>
 
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=just-brainwaves&bg_color=ffffff&color=1c1c22&line=0e9f6e&point=0e9f6e&area=true&area_color=c8e9d8&hide_border=false&border_color=e9eae7&title_color=0e9f6e&custom_title=Contribution%20Activity" alt="activity graph"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=just-brainwaves&bg_color=0d1117&color=e6edf3&line=10b981&point=5ee9a8&area=true&area_color=10b981&hide_border=false&border_color=30363d&title_color=10b981&custom_title=Contribution%20Activity" alt="activity graph"/>
 
 </div>
 
@@ -155,7 +155,7 @@ reach_me:
 <div align="center">
 
   <a href="https://github.com/just-brainwaves/moonshrine">
-    <img src="https://github-readme-stats-just-brainwaves.vercel.app/api/pin/?username=just-brainwaves&repo=moonshrine&hide_border=false&border_color=e9eae7&title_color=0e9f6e&icon_color=0e9f6e&text_color=434750&bg_color=ffffff&v=2" alt="Moonshrine"/>
+    <img src="https://github-readme-stats-just-brainwaves.vercel.app/api/pin/?username=just-brainwaves&repo=moonshrine&hide_border=false&border_color=30363d&title_color=10b981&icon_color=10b981&text_color=adbac7&bg_color=0d1117&v=2" alt="Moonshrine"/>
   </a>
 
 </div>
@@ -206,16 +206,16 @@ reach_me:
 <div align="center">
 
   <a href="mailto:aditya.shrimali.dev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0e9f6e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-10b981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://instagram.com/aditya._shrimali">
-    <img src="https://img.shields.io/badge/Instagram-1c1c22?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+    <img src="https://img.shields.io/badge/Instagram-21262d?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
   <a href="https://leetcode.com/dev-adi">
-    <img src="https://img.shields.io/badge/LeetCode-0e9f6e?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
+    <img src="https://img.shields.io/badge/LeetCode-10b981?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
   </a>
   <a href="https://github.com/just-brainwaves">
-    <img src="https://img.shields.io/badge/GitHub-1c1c22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-21262d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 
 </div>
