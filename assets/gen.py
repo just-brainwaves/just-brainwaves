@@ -353,6 +353,72 @@ def stack():
     print("stack.svg", len(svg))
 
 # ====================================================================
+# 4.5) PROJECTS — clickable deployed-site cards (one SVG per project)
+# ====================================================================
+def projects():
+    # name, tagline, short-domain, index
+    cards = [
+        ("portfolio",  "design + dev portfolio",      "portfolio.workers.dev",  "01"),
+        ("whetstone",  "ai-assisted code editor",     "whetstone.workers.dev",  "02"),
+        ("moonshrine", "hyprland desktop rice",        "moonshrine.workers.dev", "03"),
+        ("strat",      "visual algo-trading platform", "strat.workers.dev",      "04"),
+    ]
+    W, H = 430, 132
+    for name, tag, dom, idx in cards:
+        pill_w = 78
+        svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" fill="none" role="img" aria-label="{name} — {tag}">
+  <defs>
+    <linearGradient id="pjc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="{BG0}"/><stop offset="100%" stop-color="{BG1}"/>
+    </linearGradient>
+    <linearGradient id="pjtop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pjsheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity="0.045"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="pjdots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.7" fill="{HAIR2}" fill-opacity="0.45"/>
+    </pattern>
+    <clipPath id="pjclip"><rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="url(#pjc)" stroke="{HAIR}"/>
+  <g clip-path="url(#pjclip)">
+    <rect x="0" y="0" width="{W}" height="{H}" fill="url(#pjdots)"/>
+    <rect x="1" y="1" width="{W-2}" height="60" rx="15" fill="url(#pjtop)"/>
+    <!-- header -->
+    <circle cx="28" cy="28" r="3" fill="{INK_HI}"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite"/></circle>
+    <text x="40" y="32" font-family="{MONO}" font-size="10" fill="{INK_MUT}" letter-spacing="2">PROJECT</text>
+    <text x="{W-22}" y="32" text-anchor="end" font-family="{MONO}" font-size="11" fill="{INK_DIM}" letter-spacing="1">{idx} / 04</text>
+    <line x1="22" y1="44" x2="{W-22}" y2="44" stroke="{HAIR}"/>
+    <!-- body -->
+    <text x="22" y="84" font-family="{SANS}" font-size="26" font-weight="650" letter-spacing="-0.6" fill="{INK_HI}">{name}</text>
+    <text x="22" y="106" font-family="{MONO}" font-size="11" fill="{INK_MUT}" letter-spacing="0.5">{tag}</text>
+    <!-- footer -->
+    <text x="22" y="{H-14}" font-family="{MONO}" font-size="9" fill="{INK_DIM}" letter-spacing="0.5">{dom}</text>
+    <g transform="translate({W-pill_w-22},{H-32})">
+      <rect width="{pill_w}" height="24" rx="8" fill="{BG0}" stroke="{HAIR2}"/>
+      <rect width="{pill_w}" height="24" rx="8" fill="none" stroke="{INK_HI}" stroke-opacity="0">
+        <animate attributeName="stroke-opacity" values="0;0.30;0" dur="3.2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="{pill_w/2-6:.0f}" y="16" text-anchor="middle" font-family="{MONO}" font-size="11" fill="{INK}" letter-spacing="1">VISIT</text>
+      <path d="M{pill_w-22} 12 l5 0 m-2 -2.5 l2 2.5 l-2 2.5" stroke="{INK_HI}" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <rect x="-160" y="0" width="160" height="{H}" fill="url(#pjsheen)">
+      <animate attributeName="x" values="-160;{W}" dur="7s" begin="{int(idx)*0.6}s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
+'''
+        open(f"{OUT}/project-{name}.svg", "w").write(svg)
+        print(f"project-{name}.svg", len(svg))
+
+# ====================================================================
 # 5) DIVIDER  &  6) FOOTER waveform signature
 # ====================================================================
 def divider():
@@ -400,5 +466,5 @@ def footer():
 '''
     open(f"{OUT}/footer.svg","w").write(svg); print("footer.svg", len(svg))
 
-hero(); pipeline(); globe(); stack(); divider(); footer()
+hero(); pipeline(); globe(); stack(); projects(); divider(); footer()
 print("done")

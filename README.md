@@ -17,6 +17,29 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
+<!-- projects — live, deployed sites (cards are clickable) -->
+<h3 align="center">⟡ &nbsp;Selected Work &nbsp;·&nbsp; <em>live & deployed</em> &nbsp;⟡</h3>
+
+<p align="center">
+  <a href="https://portfolio.dev-aditya-shrimali.workers.dev/"><img src="./assets/project-portfolio.svg" width="48%" alt="portfolio — design + dev portfolio" /></a>
+  &nbsp;
+  <a href="https://whetstone-website.dev-aditya-shrimali.workers.dev/"><img src="./assets/project-whetstone.svg" width="48%" alt="whetstone — ai-assisted code editor" /></a>
+</p>
+<p align="center">
+  <a href="https://moonshrine-website.dev-aditya-shrimali.workers.dev/"><img src="./assets/project-moonshrine.svg" width="48%" alt="moonshrine — hyprland desktop rice" /></a>
+  &nbsp;
+  <a href="https://strat-website.dev-aditya-shrimali.workers.dev/"><img src="./assets/project-strat.svg" width="48%" alt="strat — visual algo-trading platform" /></a>
+</p>
+
+<p align="center">
+  <a href="https://portfolio.dev-aditya-shrimali.workers.dev/"><img src="https://img.shields.io/badge/portfolio-0d0d10?style=flat-square&logo=cloudflare&logoColor=d4d4d8&labelColor=08080a" alt="portfolio" /></a>
+  <a href="https://whetstone-website.dev-aditya-shrimali.workers.dev/"><img src="https://img.shields.io/badge/whetstone-0d0d10?style=flat-square&logo=cloudflare&logoColor=d4d4d8&labelColor=08080a" alt="whetstone" /></a>
+  <a href="https://moonshrine-website.dev-aditya-shrimali.workers.dev/"><img src="https://img.shields.io/badge/moonshrine-0d0d10?style=flat-square&logo=cloudflare&logoColor=d4d4d8&labelColor=08080a" alt="moonshrine" /></a>
+  <a href="https://strat-website.dev-aditya-shrimali.workers.dev/"><img src="https://img.shields.io/badge/strat-0d0d10?style=flat-square&logo=cloudflare&logoColor=d4d4d8&labelColor=08080a" alt="strat" /></a>
+</p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
 <!-- stats -->
 <p align="center">
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=just-brainwaves&show_icons=true&count_private=true&hide_border=true&title_color=e8e8ea&icon_color=8a8a92&text_color=d4d4d8&bg_color=00000000" alt="stats" />
