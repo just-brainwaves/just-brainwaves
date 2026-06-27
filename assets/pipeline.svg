@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" fill="none" role="img" aria-label="Agentic RAG runtime">
+  <defs>
+    <linearGradient id="pc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0d10"/><stop offset="100%" stop-color="#08080a"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.7" fill="#2a2a30" fill-opacity="0.5"/>
+    </pattern>
+    <clipPath id="pclip"><rect x="0.5" y="0.5" width="959" height="399" rx="18"/></clipPath>
+  </defs>
+  
+  <rect x="0.5" y="0.5" width="959" height="399" rx="18" fill="url(#pc)" stroke="#1c1c20"/>
+  
+  <g clip-path="url(#pclip)">
+    <rect x="0" y="0" width="960" height="400" fill="url(#dots)"/>
+    
+    <circle cx="40" cy="30" r="3" fill="#e8e8ea">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="54" y="34" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#8a8a92" letter-spacing="2">AGENTIC&#160;RAG&#160;·&#160;runtime</text>
+    <text x="920" y="34" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10" fill="#5a5a62" letter-spacing="1">stream ▸ live</text>
+    <line x1="40" y1="48" x2="920" y2="48" stroke="#1c1c20"/>
+    
+    <g transform="translate(30, 55)">
+      <path d="M117 168 C152 168 152 96 187 96" fill="none" stroke="#2a2a30" stroke-width="1"/>
+      <path d="M117 168 C150.5 168 150.5 240 184 240" fill="none" stroke="#2a2a30" stroke-width="1"/>
+      <path d="M277 96 C313 96 313 168 349 168" fill="none" stroke="#2a2a30" stroke-width="1"/>
+      <path d="M280 240 C314.5 240 314.5 168 349 168" fill="none" stroke="#2a2a30" stroke-width="1"/>
+      <path d="M435 168 C456.5 168 456.5 168 478 168" fill="none" stroke="#2a2a30" stroke-width="1"/>
+      <path d="M562 168 C593 168 593 168 624 168" fill="none" stroke="#2a2a30" stroke-width="1"/>
+      <path d="M728 168 C751.5 168 751.5 168 775 168" fill="none" stroke="#2a2a30" stroke-width="1"/>
+      <path d="M676 148 C676 114 676 114 676 80" fill="none" stroke="#2a2a30" stroke-width="1"/>
+      <path d="M676 188 C676 222 676 222 676 256" fill="none" stroke="#2a2a30" stroke-width="1"/>
+      
+      <g>
+        <rect x="39" y="148" width="78" height="40" rx="10" fill="#0d0d10" stroke="#2a2a30"/>
+        <rect x="39" y="148" width="78" height="40" rx="10" fill="none" stroke="#e8e8ea" stroke-opacity="0.0">
+          <animate attributeName="stroke-opacity" values="0;0.22;0" dur="4.5s" begin="2.6s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="50" cy="168" r="2" fill="#8a8a92"/>
+        <text x="61" y="167" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#e8e8ea">query</text>
+        <text x="108" y="181" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="8" fill="#5a5a62" letter-spacing="1">in</text>
+      </g>
+      <g>
+        <rect x="187" y="76" width="90" height="40" rx="10" fill="#0d0d10" stroke="#2a2a30"/>
+        <rect x="187" y="76" width="90" height="40" rx="10" fill="none" stroke="#e8e8ea" stroke-opacity="0.0">
+          <animate attributeName="stroke-opacity" values="0;0.22;0" dur="4.5s" begin="3.9s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="198" cy="96" r="2" fill="#8a8a92"/>
+        <text x="209" y="95" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#e8e8ea">embed</text>
+        <text x="268" y="109" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="8" fill="#5a5a62" letter-spacing="1">e5</text>
+      </g>
+      <g>
+        <rect x="184" y="220" width="96" height="40" rx="10" fill="#0d0d10" stroke="#2a2a30"/>
+        <rect x="184" y="220" width="96" height="40" rx="10" fill="none" stroke="#e8e8ea" stroke-opacity="0.0">
+          <animate attributeName="stroke-opacity" values="0;0.22;0" dur="4.5s" begin="2.4s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="195" cy="240" r="2" fill="#8a8a92"/>
+        <text x="206" y="239" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#e8e8ea">vector db</text>
+        <text x="271" y="253" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="8" fill="#5a5a62" letter-spacing="1">pg</text>
+      </g>
+      <g>
+        <rect x="349" y="148" width="86" height="40" rx="10" fill="#0d0d10" stroke="#2a2a30"/>
+        <rect x="349" y="148" width="86" height="40" rx="10" fill="none" stroke="#e8e8ea" stroke-opacity="0.0">
+          <animate attributeName="stroke-opacity" values="0;0.22;0" dur="4.5s" begin="1.3s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="360" cy="168" r="2" fill="#8a8a92"/>
+        <text x="371" y="167" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#e8e8ea">retrieve</text>
+        <text x="426" y="181" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="8" fill="#5a5a62" letter-spacing="1">knn</text>
+      </g>
+      <g>
+        <rect x="478" y="148" width="84" height="40" rx="10" fill="#0d0d10" stroke="#2a2a30"/>
+        <rect x="478" y="148" width="84" height="40" rx="10" fill="none" stroke="#e8e8ea" stroke-opacity="0.0">
+          <animate attributeName="stroke-opacity" values="0;0.22;0" dur="4.5s" begin="2.8s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="489" cy="168" r="2" fill="#8a8a92"/>
+        <text x="500" y="167" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#e8e8ea">context</text>
+        <text x="553" y="181" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="8" fill="#5a5a62" letter-spacing="1">topk</text>
+      </g>
+      <g>
+        <rect x="624" y="148" width="104" height="40" rx="10" fill="#0d0d10" stroke="#2a2a30"/>
+        <rect x="624" y="148" width="104" height="40" rx="10" fill="none" stroke="#e8e8ea" stroke-opacity="0.0">
+          <animate attributeName="stroke-opacity" values="0;0.22;0" dur="4.5s" begin="2.3s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="635" cy="168" r="2" fill="#8a8a92"/>
+        <text x="646" y="167" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#e8e8ea">agent · llm</text>
+        <text x="719" y="181" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="8" fill="#5a5a62" letter-spacing="1">run</text>
+      </g>
+      <g>
+        <rect x="637" y="40" width="78" height="40" rx="10" fill="#0d0d10" stroke="#2a2a30"/>
+        <rect x="637" y="40" width="78" height="40" rx="10" fill="none" stroke="#e8e8ea" stroke-opacity="0.0">
+          <animate attributeName="stroke-opacity" values="0;0.22;0" dur="4.5s" begin="0.5s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="648" cy="60" r="2" fill="#8a8a92"/>
+        <text x="659" y="59" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#e8e8ea">tools</text>
+        <text x="706" y="73" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="8" fill="#5a5a62" letter-spacing="1">fn</text>
+      </g>
+      <g>
+        <rect x="634" y="256" width="84" height="40" rx="10" fill="#0d0d10" stroke="#2a2a30"/>
+        <rect x="634" y="256" width="84" height="40" rx="10" fill="none" stroke="#e8e8ea" stroke-opacity="0.0">
+          <animate attributeName="stroke-opacity" values="0;0.22;0" dur="4.5s" begin="0.9s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="645" cy="276" r="2" fill="#8a8a92"/>
+        <text x="656" y="275" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#e8e8ea">memory</text>
+        <text x="709" y="289" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="8" fill="#5a5a62" letter-spacing="1">kv</text>
+      </g>
+      <g>
+        <rect x="775" y="148" width="86" height="40" rx="10" fill="#0d0d10" stroke="#2a2a30"/>
+        <rect x="775" y="148" width="86" height="40" rx="10" fill="none" stroke="#e8e8ea" stroke-opacity="0.0">
+          <animate attributeName="stroke-opacity" values="0;0.22;0" dur="4.5s" begin="0.9s" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="786" cy="168" r="2" fill="#8a8a92"/>
+        <text x="797" y="167" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#e8e8ea">response</text>
+        <text x="852" y="181" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="8" fill="#5a5a62" letter-spacing="1">out</text>
+      </g>
+      
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M117 168 C152 168 152 96 187 96" dur="3.2s" begin="-0s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M117 168 C152 168 152 96 187 96" dur="3.2s" begin="-1.6s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M117 168 C150.5 168 150.5 240 184 240" dur="3.7s" begin="-0.2s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M117 168 C150.5 168 150.5 240 184 240" dur="3.7s" begin="-2.05s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M277 96 C313 96 313 168 349 168" dur="4.2s" begin="-0.4s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M277 96 C313 96 313 168 349 168" dur="4.2s" begin="-2.5s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M280 240 C314.5 240 314.5 168 349 168" dur="4.7s" begin="-0.6s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M280 240 C314.5 240 314.5 168 349 168" dur="4.7s" begin="-2.95s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M435 168 C456.5 168 456.5 168 478 168" dur="3.2s" begin="-0.8s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M435 168 C456.5 168 456.5 168 478 168" dur="3.2s" begin="-2.4s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M562 168 C593 168 593 168 624 168" dur="3.7s" begin="-1s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M562 168 C593 168 593 168 624 168" dur="3.7s" begin="-2.85s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M728 168 C751.5 168 751.5 168 775 168" dur="4.2s" begin="-1.2s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M728 168 C751.5 168 751.5 168 775 168" dur="4.2s" begin="-3.3s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M676 148 C676 114 676 114 676 80" dur="4.7s" begin="-1.4s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M676 148 C676 114 676 114 676 80" dur="4.7s" begin="-3.75s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M676 188 C676 222 676 222 676 256" dur="3.2s" begin="-1.6s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="6" fill="#ffffff" opacity="0.10"/><circle r="2.1" fill="#e8e8ea"/><animateMotion path="M676 188 C676 222 676 222 676 256" dur="3.2s" begin="-3.2s" keyPoints="0;1" keyTimes="0;1" calcMode="linear" repeatCount="indefinite"/></g>
+      <g><circle r="5" fill="#ffffff" opacity="0.08"/><circle r="1.8" fill="#8a8a92"/><animateMotion path="M676 80 C676 114 676 114 676 148" dur="3.6s" begin="-1.8s" repeatCount="indefinite"/></g>
+      <g><circle r="5" fill="#ffffff" opacity="0.08"/><circle r="1.8" fill="#8a8a92"/><animateMotion path="M676 256 C676 222 676 222 676 188" dur="3.6s" begin="-1.8s" repeatCount="indefinite"/></g>
+    </g>
+  </g>
+</svg>

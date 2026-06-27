@@ -2,6 +2,16 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
+<!-- agentic rag architecture — live data flow -->
+<img src="./assets/pipeline.svg" width="100%" alt="Agentic RAG runtime" />
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<!-- latent space — rotating wireframe -->
+<img src="./assets/globe.svg" width="100%" alt="Latent space" />
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
 <!-- stack -->
 <img src="./assets/stack.svg" width="100%" alt="Stack" />
 
@@ -25,9 +35,12 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-<!-- reach -->
-**reach** &nbsp;
-<a href="mailto:aditya.shrimali.dev@gmail.com">email</a> ·
-<a href="https://github.com/just-brainwaves">github</a> ·
-<a href="https://instagram.com/aditya._shrimali">instagram</a> ·
-<a href="https://leetcode.com/dev-adi">leetcode</a>
+<!-- footer -->
+<img src="./assets/footer.svg" width="100%" alt="" />
+
+<p align="center">
+  <a href="mailto:aditya.shrimali.dev@gmail.com">email</a> &nbsp;·&nbsp;
+  <a href="https://github.com/just-brainwaves">github</a> &nbsp;·&nbsp;
+  <a href="https://instagram.com/aditya._shrimali">instagram</a> &nbsp;·&nbsp;
+  <a href="https://leetcode.com/dev-adi">leetcode</a>
+</p>
