@@ -3,7 +3,7 @@
 <img src="./assets/divider.svg" width="100%" alt="" />
 
 <!-- agentic rag architecture — live data flow -->
-<img src="./assets/pipeline.svg" width="100%" alt="Agentic RAG runtime" />
+<img src="./assets/pipeline-rag.svg" width="100%" alt="Agentic RAG runtime" />
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 

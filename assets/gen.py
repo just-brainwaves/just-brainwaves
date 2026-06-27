@@ -190,7 +190,13 @@ def pipeline():
     edges_s = "\n    ".join(edge_svgs)
     packets_s = "\n    ".join(packet_svgs)
 
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" fill="none" role="img" aria-label="Agentic RAG runtime">
+    # outer frame is larger than the graph design space; the graph is padded
+    # in via a translate so the header and edges get breathing room.
+    CW, CH = 960, 400          # canvas
+    OX, OY = 30, 55            # graph offset inside the frame
+    HX = CW - 40               # right-aligned header x
+
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{CW}" height="{CH}" viewBox="0 0 {CW} {CH}" fill="none" role="img" aria-label="Agentic RAG runtime">
   <defs>
     <linearGradient id="pc" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="{BG0}"/><stop offset="100%" stop-color="{BG1}"/>
@@ -198,25 +204,27 @@ def pipeline():
     <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
       <circle cx="1" cy="1" r="0.7" fill="{HAIR2}" fill-opacity="0.5"/>
     </pattern>
-    <clipPath id="pclip"><rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="18"/></clipPath>
+    <clipPath id="pclip"><rect x="0.5" y="0.5" width="{CW-1}" height="{CH-1}" rx="18"/></clipPath>
   </defs>
-  <rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="18" fill="url(#pc)" stroke="{HAIR}"/>
+  <rect x="0.5" y="0.5" width="{CW-1}" height="{CH-1}" rx="18" fill="url(#pc)" stroke="{HAIR}"/>
   <g clip-path="url(#pclip)">
-    <rect x="0" y="0" width="{W}" height="{H}" fill="url(#dots)"/>
+    <rect x="0" y="0" width="{CW}" height="{CH}" fill="url(#dots)"/>
     <!-- header -->
-    <circle cx="32" cy="30" r="3" fill="{INK_HI}"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite"/></circle>
-    <text x="46" y="34" font-family="{MONO}" font-size="12" fill="{INK_MUT}" letter-spacing="2">AGENTIC&#160;RAG&#160;·&#160;runtime</text>
-    <text x="848" y="34" text-anchor="end" font-family="{MONO}" font-size="10" fill="{INK_DIM}" letter-spacing="1">stream ▸ live</text>
-    <line x1="32" y1="48" x2="848" y2="48" stroke="{HAIR}"/>
+    <circle cx="40" cy="30" r="3" fill="{INK_HI}"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite"/></circle>
+    <text x="54" y="34" font-family="{MONO}" font-size="12" fill="{INK_MUT}" letter-spacing="2">AGENTIC&#160;RAG&#160;·&#160;runtime</text>
+    <text x="{HX}" y="34" text-anchor="end" font-family="{MONO}" font-size="10" fill="{INK_DIM}" letter-spacing="1">stream ▸ live</text>
+    <line x1="40" y1="48" x2="{HX}" y2="48" stroke="{HAIR}"/>
     <!-- graph -->
-    {edges_s}
-    {nodes}
-    {packets_s}
+    <g transform="translate({OX}, {OY})">
+      {edges_s}
+      {nodes}
+      {packets_s}
+    </g>
   </g>
 </svg>
 '''
-    open(f"{OUT}/pipeline.svg", "w").write(svg)
-    print("pipeline.svg", len(svg))
+    open(f"{OUT}/pipeline-rag.svg", "w").write(svg)
+    print("pipeline-rag.svg", len(svg))
 
 # ====================================================================
 # 3) GLOBE — rotating wireframe sphere (latent space) — generative art
