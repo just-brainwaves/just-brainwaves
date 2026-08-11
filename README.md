@@ -7,7 +7,7 @@ I’ll be happy to receive any **feedback** or **code reviews** that can help me
 ⭐️ Feel free to **follow me** - I’d really appreciate your support!<br />
 
 <!-- ![BOY GIF](assets/confused.gif) -->
-<img src="assets/cat.gif" alt="Hello GIF" width="250">
+<img src="assets/cat.gif" alt="Hello GIF" width="200">
 
 Thank you for visiting my page ❤️
 
